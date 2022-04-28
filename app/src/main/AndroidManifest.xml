@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dependecy_Injection">
         <activity
+            android:name=".ui.activities.DetailScreen"
+            android:exported="false" />
+        <activity
             android:name=".ui.activities.MainActivity"
             android:exported="true">
             <intent-filter>
